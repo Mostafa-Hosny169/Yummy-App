@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Roboto:wght@100;300;400;500;700;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-black ">
+    <div class="loading">
+        <span class="loader"></span>
+    </div>
+ 
+    <section class="nav-all d-flex ">
+        <div class="nav text-white p-4 d-flex flex-column justify-content-between bg-black position-relative">
+           
+                <ul class=" list-unstyled sideBarList ">
+                    <li>Search</li>
+                    <li>Categories</li>
+                    <li>Area</li>
+                    <li>Ingredients</li>
+                    <li>Contact Us</li>
+                </ul>
+            
+          
+            <div class="nav-footer">
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-solid fa-globe"></i></span>
+                <p>Copyright Â© 2019 All Rights <br> Reserved.</p>
+            </div>
+
+
+            <div class="open-close bg-white d-flex flex-column justify-content-between align-items-center py-3 px-2 position-absolute">
+                <img src="./img/logo.png" alt="mg not found">
+                <i class="fa-solid open-close-icon fa-2x fa-align-justify" id="opeButton"></i>
+                <i class="fa-solid open-close-icon fa-2x fa-x  d-none" id="closeButton" ></i>
+                <div>
+                    <i class="fa-solid fa-globe d-block"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contactUs" class=" hight d-flex justify-content-center align-items-center w-100 ">
+
+        <div class=" container text-center w-50">
+
+            <div class="row pt-4 gy-4" id="displayContactUs">
+               <div class="col-md-6">
+                    <div class="inputs  w-100">
+                        <input type="text" placeholder="Enter Your Name" class="form-control" id="nameInput">
+                        <p class=" mt-2 d-none" id="massageName">Special characters and numbers not allowed</p>
+                    </div>
+               </div>
+            <div class="col-md-6">
+                <div class="inputs  w-100">
+                    <input type="email" placeholder="Enter Your Email" class="form-control" id="emailInput">
+                    <p class=" mt-2 d-none" id="massageEmail">Email not valid *exemple@yyy.zzz</p>
+                </div>
+           </div>
+            </div>
+
+            <div class="row pt-4 gy-4" id="displayContactUs">
+                <div class="col-md-6">
+                     <div class="inputs w-100">
+                         <input type="text" placeholder="Enter Your Phone" class="form-control" id="phoneInput">
+                         <p class=" mt-2 d-none" id="massagePhone">Enter valid Phone Number</p>
+                     </div>
+                </div>
+             <div class="col-md-6">
+                 <div class="inputs  w-100">
+                     <input type="number" placeholder="Enter Your Age" class="form-control" id="ageInput">
+                     <p class=" mt-2 d-none" id="massageAge">Enter valid age 3 Numbers Maximum</p>
+                 </div>
+            </div>
+             </div>
+
+             <div class="row pt-4 gy-4" id="displayContactUs">
+                <div class="col-md-6">
+                     <div class="inputs w-100">
+                         <input type="password" placeholder="Enter Your Password" class="form-control" id="passwordInput">
+                         <p class=" mt-2 d-none" id="massagePassword">Enter valid password *Minimum eight characters, at least one letter and one number:*</p>
+                     </div>
+                </div>
+             <div class="col-md-6">
+                 <div class="inputs w-100">
+                     <input type="password" placeholder="Repassword" class="form-control" id="repasswordInput">
+                     <p class=" mt-2 d-none" id="massageRpassword">Enter valid repassword</p>
+                 </div>
+            </div>
+             </div>
+
+             <div class="row pt-3" id="displayContactUs">
+                <div class="col-md-12">
+                     <button disabled id="button">Submit</button>
+                </div>
+             </div>
+    </div>
+    </section> 
+
+    <section id="home"  >
+            <div class="container pt-5">
+                <div class="row gy-4 " id="homeDisplayData">
+                    
+                </div>
+            </div>
+    </section>
+
+    <section id="home-info"  >
+        <div class="container pt-5">
+            <div class="row " id="detailsData">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="categories"  >
+        <div class="container pt-5">
+            <div class="row gy-4 pb-5" id="categoriesDisplayData"> 
+            </div>
+        </div>
+    </section>
+
+    <section id="spcialCategory" >
+        <div class="container py-5">
+            <div class="row gy-4" id="displaySpcialCategory"> 
+              
+            </div>
+        </div>
+    </section> 
+
+    <section id="area" >
+        <div class="container py-5">
+            <div class="row gy-4" id="displayArea">
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="area-info" >
+        <div class="container py-5">
+            <div class="row gy-4" id="displayAreaInfo">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="ingredients" >
+
+        <div class="container py-5">
+            <div class="row gy-4" id="displayIngredients">
+                 
+            </div>
+        </div>
+
+    </section>
+
+    <section id="ingredients-info" >
+        <div class="container py-5">
+            <div class="row gy-4" id="displayIngredientsInfo">
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="search" >
+        <div class="container py-4">
+            <div class="row gy-4" >
+                <div class="col-md-6 d-none dnone">
+                    <input type="text" class="w-100 btn btn-primary" placeholder="Search By Name" id="searchByName">
+                </div>
+                <div class="col-md-6 d-none dnone">
+                    <input type="text" class="w-100 btn btn-primary" placeholder="Search By Name" id="searchByLetter" maxlength="1">
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-4 mt-4 ">
+            <div class="row gy-4 " id="displaySearchInfo">
+                
+            </div>
+        </div>
+    </section>
+    <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
